@@ -5,28 +5,49 @@ const MyComponent: React.FC = () => {
     return (
         <div className="flex flex-col  bg-[#FFEED9] justify-center">
             <div className="flex flex-col self-center w-full max-w-screen-xl sm:p-5 md:p-10 lg:p-20">
-                <div className="z-10 sm:text-3xl md:text-6xl lg:text-7xl font-extrabold text-teal-800">
+                <div className="z-10 sm:text-3xl md:text-6xl lg:text-7xl font-extrabold text-yippy">
                     Yippy
                 </div>
                 <div className="mt-2 max-md:max-w-full">
                     <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                         <div className="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">
-                            <div className="flex flex-col my-auto  text-neutral-500 md:mt-10">
-                                <div className="sm:text-2xl md:text-4xl whitespace-nowrap">Website design</div>
+                            <div className="flex flex-col my-auto text-neutral-500 md:mt-10">
+                                <div className="rounded-3xl text-2xl border p-4 w-fit text-yippy bg-[#F8FFEC]" >UI/UX Case Study</div>
+                                <div className="sm:text-2xl md:text-3xl whitespace-nowrap">Your family’s travel assistant </div>
+                                <div className="flex flex-row mt-20 gap-5">
                                 <img
                                     loading="lazy"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
                                     alt=""
-                                    className="md:mt-40 border border-white border-solid aspect-square w-[79px] max-md:mt-10"
+                                    className="border border-white border-solid aspect-square w-[79px] max-md:mt-10"
                                 />
+                                   <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
+                                    alt=""
+                                    className="border border-white border-solid aspect-square w-[79px] max-md:mt-10"
+                                />
+                                   <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
+                                    alt=""
+                                    className="border border-white border-solid aspect-square w-[79px] max-md:mt-10"
+                                />
+                                   <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
+                                    alt=""
+                                    className="border border-white border-solid aspect-square w-[79px] max-md:mt-10"
+                                />
+                                </div>
                             </div>
                         </div>
                         <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full sm:-mt-24 md:m-0">
                             <img
                                 loading="lazy"
-                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9da93d8351c4404f81a064341ac47b0d5d7f4d1c147994d61da9055a7a641fc?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
+                                src="images/yippy/banner.png"
                                 alt=""
-                                className="grow w-full aspect-[1.22] max-md:mt-10 max-md:max-w-full"
+                                className="grow w-full max-md:mt-10 max-md:max-w-full"
                             />
                         </div>
                     </div>
@@ -53,7 +74,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex justify-center items-center w-full bg-[#FFE5CC] section-y-padding">
                 <div className="flex flex-col w-full max-w-screen-xl md:text-4xl sm:p-5 md:p-10 lg:p-20 text-black">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         Empathize Phase
                     </div>
                     <div className="self-start sm:mt-5 md:mt-20 lg:mt-32 title">
@@ -115,7 +136,7 @@ const MyComponent: React.FC = () => {
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
                     <div className="flex gap-5 justify-between sm:flex-col md:flex-row">
                         <div className="flex flex-col max-md:max-w-full basis-1/2">
-                            <div className="md:mt-5 text-teal-800 title font-semibold  whitespace-nowrap">Problem Statement</div>
+                            <div className="md:mt-5 text-yippy title font-semibold  whitespace-nowrap">Problem Statement</div>
                             <div className="sm:mt-2 md:my-5 text-justify text-black  paragraph">
                                 <span>
                                     Marianna Construction is challenged in effectively establishing and promoting their professional services.
@@ -125,7 +146,7 @@ const MyComponent: React.FC = () => {
                         </div>
                         <div className="shrink-0 w-2 bg-black border-4 border-black border-solid sm:hidden md:block " />
                         <div className="flex flex-col max-md:max-w-full basis-1/2">
-                            <div className="md:mt-5 title text-teal-800 font-semibold whitespace-nowrap">Problem Solution</div>
+                            <div className="md:mt-5 title text-yippy font-semibold whitespace-nowrap">Problem Solution</div>
                             <div className="sm:mt-2 md:my-5 paragraph text-justify text-black">
                                 How might we create a platform that is user-friendly to showcase their expertise, offerings and attract
                                 potential clients?
@@ -175,7 +196,7 @@ const MyComponent: React.FC = () => {
                             <div className="flex flex-col sm:w-full md:w-[50%] lg:w-[40%]">
                                 <div className="flex flex-col grow items-center p-5 lg:p-10 w-full bg-white rounded-3xl shadow-lg">
                                     <Image src='/images/marianna/hannah.png' className="max-w-full rounded-full border-white border-solid aspect-[0.99] border-[10px] w-[249px]" width={230} height={230} loading="lazy" alt="Photo of Hannah Lee" />
-                                    <div className="sm:mt-2 md:mt-6 title text-teal-800">Hannah Lee</div>
+                                    <div className="sm:mt-2 md:mt-6 title text-yippy">Hannah Lee</div>
                                     <div className="self-stretch mt-8">
                                         <div className="flex gap-5 flex-row sm:justify-center lg:justify-normal">
                                             <div className="flex flex-col">
@@ -198,7 +219,7 @@ const MyComponent: React.FC = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="mt-10 subtitle text-teal-800">Personality</div>
+                                    <div className="mt-10 subtitle text-yippy">Personality</div>
                                     <div className="flex gap-1 mt-5 text-black whitespace-nowrap">
                                         <div className="flex flex-auto gap-2 items-center flex-wrap ">
                                             <div className="description justify-center px-4 py-2 bg-gray-300 bg-opacity-80 rounded-[56px] max-md:px-5">Introvert</div>
@@ -212,14 +233,14 @@ const MyComponent: React.FC = () => {
                             <div className="flex flex-col sm:w-full md:w-[50%] lg:w-[60%] max-md:ml-0 max-md:w-full ">
                                 <div className="flex flex-col grow gap-5">
                                     <div className="flex flex-col p-5 lg:p-10 bg-white rounded-3xl shadow-sm  ">
-                                        <div className="title text-teal-800">Brief Story</div>
+                                        <div className="title text-yippy">Brief Story</div>
                                         <div className="sm:mt-2 md:mt-6 description text-justify text-black">
                                             Hannah currently lives in a home with her husband and son. They have lived there for the past 5 years. She loves
                                             spending time in her backyard and garage but feels like some renovations inside the house are needed.{" "}
                                         </div>
                                     </div>
                                     <div className="flex flex-col p-5 lg:p-10 bg-white rounded-3xl shadow-sm ">
-                                        <div className="title text-teal-800">Goals</div>
+                                        <div className="title text-yippy">Goals</div>
                                         <div className="sm:mt-2 md:mt-6 description text-justify text-black">
                                             Wants to find a trustworthy contractor for home renovation projects
                                             <br />
@@ -229,7 +250,7 @@ const MyComponent: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col p-5 lg:p-10 rounded-3xl shadow-sm bg-white">
-                                        <div className="title text-teal-800">Frustations</div>
+                                        <div className="title text-yippy">Frustations</div>
                                         <div className="sm:mt-2 md:mt-6 description text-justify text-black">
                                             Price and budget can get too high related to quality they provide
                                             <br />
@@ -249,7 +270,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                     Storyboard
                     </div>
                 </div>
@@ -262,7 +283,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         Site Map
                     </div>
                     <div className="max-w-full h-auto self-center sm:mt-5 md:mt-20 lg:mt-32">
@@ -275,7 +296,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         Low Fi Wireframes
                     </div>
                     <div className="max-w-full h-auto self-center sm:mt-5 md:mt-20 lg:mt-32">
@@ -296,7 +317,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         Mobile Wireframe
                     </div>
                 </div>
@@ -308,9 +329,9 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         <span className="font-semibold">Typography & </span>
-                        <span className="font-semibold text-teal-800">Colors</span>
+                        <span className="font-semibold text-yippy">Colors</span>
                     </div>
                     <div className="max-w-full h-auto self-center sm:mt-5 md:mt-20 lg:mt-32 flex flex-col gap-20">
                         <Image src='images/marianna/font.svg' width="1280" height="557" alt="image of a sitemap" />
@@ -321,7 +342,7 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="text-5xl font-semibold text-teal-800 md:text-4xl sm:text-3xl lg:text-5xl pb-5">
+                    <div className="text-5xl font-semibold text-yippy md:text-4xl sm:text-3xl lg:text-5xl pb-5">
                         User Flow
                     </div>
                     <div className="max-w-full h-auto self-center w-full sm:mt-5 md:mt-20 lg:mt-32">
@@ -332,9 +353,9 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
+                    <div className="self-start font-semibold text-yippy section-title">
                         <span className="font-semibold text-black">UI </span>
-                        <span className="font-semibold text-teal-800">Style Guide</span>
+                        <span className="font-semibold text-yippy">Style Guide</span>
                     </div>
                     <div className="max-w-full h-auto self-center sm:mt-5 md:mt-20 lg:mt-32">
                         <Image className="w-full" src='images/marianna/uistyleguide.svg' width="1366" height="1071" alt="image of a wireframe" />
@@ -344,8 +365,8 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
-                        <span className="font-semibold text-teal-800">Mobile </span>
+                    <div className="self-start font-semibold text-yippy section-title">
+                        <span className="font-semibold text-yippy">Mobile </span>
                         <span className="font-semibold">Prototype</span>
                     </div>
                 </div>
@@ -356,8 +377,8 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                    <div className="self-start font-semibold text-teal-800 section-title">
-                        <span className="font-semibold text-teal-800">Desktop </span>
+                    <div className="self-start font-semibold text-yippy section-title">
+                        <span className="font-semibold text-yippy">Desktop </span>
                         <span className="font-semibold">Prototype</span>
                     </div>
                     <div className="sm:mt-5 md:mt-20 lg:mt-32 shadow-lg max-md:max-w-full">

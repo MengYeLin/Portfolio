@@ -17,6 +17,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'marianna': '#1A5F58',
+        'yippy': '#E67B19',
+        'yinhua': '#EEAB99',
+      },
     },
   },
   plugins: [],
