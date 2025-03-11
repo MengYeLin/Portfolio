@@ -10,7 +10,7 @@ const MyComponent: React.FC = () => {
                 </section>
 
                 <section className="flex flex-col items-center w-full">
-                    <Image className="w-full" src='/images/yinhua/header.png' width="1042" height="603" alt="Design thinking process image" />
+                    <Image className="w-full" src='/images/yinhua/Header.png' width="1042" height="603" alt="Design thinking process image" />
                 </section>
 
                 <section className="flex flex-col items-center w-full section-y-padding px-4">
