@@ -35,6 +35,15 @@ const NavBar: React.FC = () => {
         }
     }
 
+    const gallery = () => {
+        const contactme = document.getElementById("gallery");
+        if(contactme){
+            contactme?.scrollIntoView({behavior: 'smooth'});
+        }else{
+            router.push("/gallery")
+        }
+    }
+
     
 
     return (
@@ -47,6 +56,7 @@ const NavBar: React.FC = () => {
                     <li className="px-4 py-2 text-[#594F43] hover:text-black hover:cursor-pointer"><a href="/">Home</a></li>
                     <li className="px-4 py-2 text-[#594F43] hover:text-black hover:cursor-pointer"><a onClick={myWork}>Work</a></li>
                     <li className="px-4 py-2 text-[#594F43] hover:text-black hover:cursor-pointer"><a onClick={contactMe} >Contact</a></li>
+                    <li className="px-4 py-2 text-[#594F43] hover:text-black hover:cursor-pointer"><a onClick={gallery} >Gallery</a></li>
                     <li className="px-4 py-2 text-[#594F43] hover:text-black hover:cursor-pointer"><a onClick={aboutMe} >About Me</a></li>
                 </ul>
             </div>
