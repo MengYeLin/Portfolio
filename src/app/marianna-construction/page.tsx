@@ -6,14 +6,14 @@ const MyComponent: React.FC = () => {
         <div className="flex flex-col  bg-[#FFEED9] justify-center">
             <div className="absolute w-full justify-between flex top-0">
                 <div className="mt-32 flex gap-4 bg-[#1A5F58] w-fit p-8 rounded-r-full h-fit ">
-                    <img src="images/house.png" alt="house" className="w-14 h-14" />
+                    <Image src="/images/house.png" width={54} height={54} alt="house" className="w-14 h-14" />
                     <p className="text-white text-xl">
                         Marianna <br />
                         Construction
                     </p>
                 </div>
                 <div className="self-end">
-                    <img src="images/Union.png" />
+                    <Image src="/images/Union.png" width={500} height={400} className="w-auto h-auto" alt="header image" />
                 </div>
             </div>
             <div className="flex flex-col self-center w-full sm:p-5 md:p-10 lg:p-0 z-10">
@@ -23,26 +23,17 @@ const MyComponent: React.FC = () => {
                             <div className="flex flex-col my-auto  text-neutral-500 md:mt-10">
                                 <div className="relative rounded-[50px] text-2xl border p-4 w-fit text-marianna bg-[#F8FFEC]" >
                                     UI/UX Case Study
-                                    <img className="absolute -right-11 top-10" src="/images/arrow.png" />
+                                    <Image className="absolute -right-11 top-10" src="/images/arrow.png" alt="arrow" width={65} height={65} />
                                 </div>
                                 <div className="z-10 sm:text-3xl md:text-6xl lg:text-7xl font-extrabold text-marianna mt-20">
                                     Marianna Construction
                                 </div>
-                                <img
-                                    loading="lazy"
-                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
-                                    alt=""
-                                    className="md:mt-40 border border-white border-solid aspect-square w-[79px] max-md:mt-10"
+                                <Image src="/images/figma.png" alt="figma" width={79} height={79} className="md:mt-40 border border-white border-solid aspect-square w-[79px] max-md:mt-10"
                                 />
                             </div>
                         </div>
                         <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full sm:-mt-24 md:m-0 max-w-[50%] ">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9da93d8351c4404f81a064341ac47b0d5d7f4d1c147994d61da9055a7a641fc?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
-                                alt=""
-                                className="grow w-full  max-md:mt-10 max-md:max-w-full"
-                            />
+                            <Image src="/images/marianna/header.svg"  width={974} height={795} alt="header" />
                         </div>
                     </div>
                 </div>
@@ -277,8 +268,8 @@ const MyComponent: React.FC = () => {
 
             <section className="flex flex-col items-center  section-y-padding w-full text-black ">
                 <div className="flex flex-col justify-center max-w-screen-xl w-full sm:p-5 md:p-10 lg:p-20">
-                <div className="self-center font-semibold text-black section-title rounded-[50px] border bg-[#EBF0EF] px-20 py-5">
-                        User <span className="text-marianna">Flow</span> 
+                    <div className="self-center font-semibold text-black section-title rounded-[50px] border bg-[#EBF0EF] px-20 py-5">
+                        User <span className="text-marianna">Flow</span>
                     </div>
                     <div className="max-w-full h-auto self-center w-full sm:mt-5 md:mt-20 lg:mt-32">
                         <Image className="w-full" src='images/marianna/userflow.svg' width="1366" height="1071" alt="image of a wireframe" />

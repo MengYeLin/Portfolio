@@ -11,7 +11,7 @@ const MyComponent: React.FC = () => {
                     </p>
                 </div>
                 <div className="self-end">
-                    <img src="/images/yippy/Union.png" />
+                    <Image src="/images/yippy/Union.png" width={500} height={400} className="w-auto h-auto" alt="header image" />
                 </div>
             </div>
             <div className="flex flex-col self-center w-full sm:p-5 md:p-10 lg:p-0 z-10">
@@ -21,27 +21,19 @@ const MyComponent: React.FC = () => {
                             <div className="flex flex-col my-auto  text-neutral-500 md:mt-10">
                                 <div className="relative rounded-[50px] text-2xl border p-4 w-fit text-yippy bg-[#F8FFEC]" >
                                     UI/UX Case Study
-                                    <img className="absolute -right-11 top-10" src="/images/arrow.svg" />
+                                    <Image className="absolute -right-11 top-10" src="/images/arrow.png" alt="arrow" width={65} height={65} />
                                 </div>
                                 <div className="z-10 sm:text-3xl md:text-6xl lg:text-7xl font-extrabold text-yippy mt-20">
                                     Yippy
                                 </div>
-                                <div className="mt-4 text-black">Your family's travel assistant</div>
-                                <img
-                                    loading="lazy"
-                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40ec7bd6fc70443c4beb9cffc63e65af0663fd5d7a43345158f7d4fe2320b44?apiKey=c1a57e0a3f6549b4b931d9b94e2037d0&"
-                                    alt=""
-                                    className="md:mt-40 border border-white border-solid aspect-square w-[79px] max-md:mt-10"
-                                />
+                                <div className="mt-4 text-black">Your family&apos;s travel assistant</div>
+                                <Image src="/images/figma.png" alt="figma" width={79} height={79} className="md:mt-40 border border-white border-solid aspect-square w-[79px] max-md:mt-10"/>
+
                             </div>
                         </div>
                         <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full sm:-mt-24 md:m-0 max-w-[50%] ">
-                            <img
-                                loading="lazy"
-                                src="images/yippy/banner.png"
-                                alt=""
-                                className="grow w-full  max-md:mt-10 max-md:max-w-full"
-                            />
+
+                        <Image src="/images/yippy/banner.svg"  width={963} height={1068} alt="header" />
                         </div>
                     </div>
                 </div>
