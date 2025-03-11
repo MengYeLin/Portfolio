@@ -38,7 +38,7 @@ const NavBar: React.FC = () => {
     
 
     return (
-        <nav className="bg-orange-100  w-full ">
+        <nav className="bg-orange-100  w-full z-10 relative">
             <div className=" p-5  items-center">
                 {/* <span>
                     Sophia
