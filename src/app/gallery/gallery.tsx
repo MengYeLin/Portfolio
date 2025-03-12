@@ -1,49 +1,70 @@
 'use client';
-import React, { useEffect } from 'react';
-import PhotoSwipeLightbox from 'photoswipe/lightbox';
-import 'photoswipe/style.css';
+import React from 'react';
 
-interface SimpleGalleryProps {
-  galleryID: string;
-  images: Array<{
-    largeURL: string;
-    thumbnailURL: string;
-    width: number;
-    height: number;
-  }>;
-}
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
-const SimpleGallery: React.FC<SimpleGalleryProps> = (props) => {
-  useEffect(() => {
-    let lightbox: PhotoSwipeLightbox | null = new PhotoSwipeLightbox({
-      gallery: '#' + props.galleryID,
-      children: 'a',
-      pswpModule: () => import('photoswipe'),
-    });
-    lightbox.init();
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-    return () => {
-      lightbox?.destroy();
-      lightbox = null;
-    };
-  }, [props.galleryID]);
 
-  return (
-    <div className="pswp-gallery" id={props.galleryID}>
-      {props.images.map((image, index) => (
-        <a
-          href={image.largeURL}
-          data-pswp-width={image.width}
-          data-pswp-height={image.height}
-          key={props.galleryID + '-' + index}
-          target="_blank"
-          rel="noreferrer"
+const SimpleGallery = () => {
+    return (
+        <Swiper
+            slidesPerView={1}
+            centeredSlides={false}
+            slidesPerGroupSkip={1}
+            grabCursor={true}
+            keyboard={{
+                enabled: true,
+            }}
+            breakpoints={{
+                769: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+            }}
+            scrollbar={true}
+            navigation={true}
+            pagination={{
+                clickable: true,
+            }}
+            modules={[Keyboard, Scrollbar, Navigation, Pagination]}
+            className=""
         >
-          <img src={image.thumbnailURL} alt="" />
-        </a>
-      ))}
-    </div>
-  );
+            <SwiperSlide>
+                <img src="/images/torontomagazine1.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine2.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine3.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine4.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine5.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine6.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine7.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine8.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/images/torontomagazine9.png" />
+            </SwiperSlide>
+        </Swiper>
+    );
 }
 
 export default SimpleGallery;
