@@ -13,7 +13,7 @@ const MyComponent: React.FC = () => {
                     <span className="flex flex-col max-w-2xl ml-auto" >
                         <span className="text-[50px] text-md:text-[100px] leading-[100%] text-md:leading-[90%] tracking-[-1.5px] text-md:tracking-[-4px] font-medium">Inner Child</span>
                         <p className="text-[20px] leading-[150%] mb-2 mt-10 ">
-                            This poster promotes a group art show at the 401 Richmount Building in Toronto, featuring works by my TMU study group. The theme, "Bring Back the Memory of Our Childhood in the 90s," celebrates the joy and nostalgia of that era. The design uses bright 90s colors, playful fonts, and fun visuals to remind us of our inner child. The message is simple: we all have a "child" inside us, and reconnecting with that spirit can help us face life&apos;s challenges. The show invites everyone to relive their childhood memories, find joy, and embrace resilience through art.
+                            This poster promotes a group art show at the 401 Richmount Building in Toronto, featuring works by my TMU study group. The theme, &quot;Bring Back the Memory of Our Childhood in the 90s,&quot; celebrates the joy and nostalgia of that era. The design uses bright 90s colors, playful fonts, and fun visuals to remind us of our inner child. The message is simple: we all have a &quot;child&quot; inside us, and reconnecting with that spirit can help us face life&apos;s challenges. The show invites everyone to relive their childhood memories, find joy, and embrace resilience through art.
                         </p>
                     </span>
                 </div>
