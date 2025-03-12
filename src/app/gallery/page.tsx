@@ -35,7 +35,7 @@ const MyComponent: React.FC = () => {
             </section>
 
             <section className="flex flex-row justify-center w-full bg-[#FFE5CC]">
-                <div className="max-w-screen-2xl">
+                <div className="max-w-screen-xl w-full">
                   <SimpleGallery/>
                 </div>
 

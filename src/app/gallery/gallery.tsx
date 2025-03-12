@@ -15,18 +15,13 @@ import 'swiper/css/pagination';
 const SimpleGallery = () => {
     return (
         <Swiper
-            slidesPerView={1}
+            slidesPerView={2}
             centeredSlides={false}
             slidesPerGroupSkip={1}
+            slidesPerGroup={2}
             grabCursor={true}
             keyboard={{
                 enabled: true,
-            }}
-            breakpoints={{
-                769: {
-                    slidesPerView: 2,
-                    slidesPerGroup: 2,
-                },
             }}
             scrollbar={true}
             navigation={true}
