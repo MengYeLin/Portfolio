@@ -30,10 +30,10 @@ const Project: React.FC<ProjectProps> = ({ title, description, imageUrl, href })
         <div className="mt-1 font-medium leading-9 text-stone-600">
           {description}
         </div>
-        <a href={href} className="mt-6 font-semibold text-slate-600">View Case Study</a>
+        <a href={href} className="mt-6 font-semibold text-slate-600 transition-all duration-300 hover:shadow-xl hover:scale-105 border-2 border-gray-600 py-2 px-4 rounded-lg w-fit">View Case Study</a>
       </div>
     </div>
-    <div className="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+    <div className="flex flex-col sm:mb-5 md:mb-0 ml-5 w-[59%] max-md:ml-0 max-md:w-full">
       <img
         loading="lazy"
         src={imageUrl}
@@ -97,7 +97,7 @@ const MyComponent: React.FC = () => {
             <Project
               title="Marianna Construction"
               description="We developed Marianna Construction's digital presence, from UX research to a user-friendly UI prototype, attracting new clientele."
-              imageUrl="https://cdn.builder.io/api/v1/image/assets/TEMP/1ad0f6732c3800a4b1c67aa237350f5b246dfe2e51e690527bb60a9c850f4cd5?apiKey=1df82e88e56546ae8eb46a6a9599b6ce&"
+              imageUrl="/images/recentwork-marianna.png"
               href='/marianna-construction'
             />
           </div>
@@ -107,7 +107,7 @@ const MyComponent: React.FC = () => {
             <Project
               title="YIN HUA ASSOCIATION OF ONTARIO CANADA"
               description="An immersive platform for celebrating and preserving Hakka culture online."
-              imageUrl="https://cdn.builder.io/api/v1/image/assets/TEMP/a3f101a1cafa9316862e4a9765543f6b6e47fe9b574f663afa99180d012422e2?apiKey=1df82e88e56546ae8eb46a6a9599b6ce&"
+              imageUrl="/images/recentwork-yinhua.png"
               href='/yin-hua'
             />
           </div>
@@ -118,7 +118,7 @@ const MyComponent: React.FC = () => {
             <Project
               title="Yippy"
               description="Simplifying family travel with custom planning and booking services for parents and kids."
-              imageUrl="https://cdn.builder.io/api/v1/image/assets/TEMP/b918109203546d3b103dae58e77549e685b72a175532a39e826022e7171d0894?apiKey=1df82e88e56546ae8eb46a6a9599b6ce&"
+              imageUrl="/images/recentwork-yippy.png"
               href='/yippy'
             />
           </div>
