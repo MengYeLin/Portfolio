@@ -74,7 +74,7 @@ const MyComponent: React.FC = () => {
               </span>
             </h1>
             <div className="flex gap-4 mt-8 sm:text-base md:text-2xl sm:flex-col md:flex-row sm:items-center md:items-start">
-              <button type='button' className="transition-all duration-300 text-violet-50 bg-slate-600 hover:shadow-xl hover:scale-105 border-4 border-slate-600 rounded-lg p-5  sm:w-[165px] md:w-fit" onClick={myWork}>
+              <button type='button' className="transition-all duration-300 text-violet-50 bg-slate-600 hover:shadow-xl hover:scale-105 border-4 border-slate-600 rounded-lg p-5 sm:w-fit md:w-fit" onClick={myWork}>
                 <div className="flex gap-3 pr-2 justify-center" >
                   View My Work
                 </div>
