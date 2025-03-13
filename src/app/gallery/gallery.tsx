@@ -19,6 +19,8 @@ const SimpleGallery = () => {
             centeredSlides={false}
             slidesPerGroupSkip={1}
             grabCursor={true}
+            scrollbar={true}
+            navigation={true}
             keyboard={{
                 enabled: true,
             }}
